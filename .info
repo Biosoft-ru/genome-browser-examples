@@ -1,0 +1,7 @@
+properties:
+    root: true
+files:
+  - name: indel.vcf
+    properties:
+      normalizeChromosome: true
+      SequencesCollection: databases/EnsemblHuman85/Sequences/chromosomes GRCh38
