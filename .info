@@ -1,7 +1,13 @@
-properties:
-    root: true
 files:
-  - name: indel.vcf
-    properties:
-      normalizeChromosome: true
-      SequencesCollection: databases/EnsemblHuman85/Sequences/chromosomes GRCh38
+- name: indel.vcf
+  properties:
+    normalizeChromosome: true
+    SequencesCollection: databases/EnsemblHuman85/Sequences/chromosomes GRCh38
+- name: geneTrack-chr21-fragment.gff
+  transformer: ru.biosoft.bsa.transformer.GFFFileTransformer
+  properties:
+    normalizeChromosome: true
+    SequencesCollection: databases/EnsemblHuman85/Sequences/chromosomes GRCh38
+properties:
+  root: 'true'
+collections: []
