@@ -8,6 +8,9 @@ files:
   properties:
     normalizeChromosome: true
     SequencesCollection: databases/EnsemblHuman85/Sequences/chromosomes GRCh38
+- name: wig_track.wig
+  properties:
+    ChrMapping: hg38_ucsc_to_ensembl
 properties:
   root: 'true'
 collections: []

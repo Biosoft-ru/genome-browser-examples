@@ -1,0 +1,5 @@
+files:
+- name: hg38_ucsc_to_ensembl.txt
+  transformer: ru.biosoft.bsa.ChrNameMappingTransformer
+properties: {}
+collections: []
