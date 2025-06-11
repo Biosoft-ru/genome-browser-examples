@@ -1,0 +1,20 @@
+files:
+- name: geneTrack-chr21-fragment.gff
+- name: COVID19_HGI_ANA_B2_V2_pE-4.vcf
+  type: VCF track
+  properties:
+    ChrMapping: genome-browser-examples/ChrMapping/hg38_ensembl_to_ucsc.txt
+- name: combined_bed_gff
+  transformer: ru.biosoft.bsa.transformer.CombinedTrackTransformer
+  type: CombinedTrack
+- name: geneTrack-chr21-fragment.bed
+  type: BED track
+  properties:
+    SequencesCollection: genome-browser-examples/Sequences/hg38_chr21.fa
+fileFilter:
+- .git
+- '*.seq.idx'
+- '*.fna.id'
+- '*.fa.id'
+- '*.gb.id'
+- '*.bai'

@@ -1,7 +1,3 @@
 files:
-- name: 2bta.pdb
-  transformer: ru.biosoft.access.support.FileTextTransformer
-- name: 2por.pdb
-  transformer: ru.biosoft.access.support.FileTextTransformer
-properties: {}
-collections: []
+- name: 1vm8.pdb
+  type: Text

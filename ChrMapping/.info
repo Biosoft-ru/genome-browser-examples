@@ -1,5 +1,29 @@
 files:
 - name: hg38_ucsc_to_ensembl.txt
-  transformer: ru.biosoft.bsa.ChrNameMappingTransformer
-properties: {}
-collections: []
+  type: ChrNameMappingFile
+- name: ASM294v2_ucsc_to_ensembl.txt
+  type: ChrNameMappingFile
+- name: hg38_ensembl_to_ucsc.txt
+  type: ChrNameMappingFile
+- name: mm10_ucsc_to_ensembl.txt
+  type: ChrNameMappingFile
+- name: rn6_ucsc_to_ensembl.txt
+  type: ChrNameMappingFile
+- name: sacCer3_ucsc_to_ensembl.txt
+  type: ChrNameMappingFile
+- name: tair10_ucsc_to_ensembl.txt
+  type: ChrNameMappingFile
+- name: dm6_ucsc_to_ensembl.txt
+  type: ChrNameMappingFile
+- name: danRer11_ucsc_to_ensembl.txt
+  type: ChrNameMappingFile
+- name: ce11_ucsc_to_ensembl.txt
+  type: ChrNameMappingFile
+- name: hg38_main_chr_refseq_to_ucsc.txt
+  type: ChrNameMappingFile
+- name: hg38_main_chr_ucsc_to_refseq.txt
+  type: ChrNameMappingFile
+- name: hg38_ensembl_to_refseq.txt
+  type: ChrNameMappingFile
+- name: hg38_custom_ucsc_to_refseq.txt
+  type: ChrNameMappingFile

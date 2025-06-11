@@ -1,16 +1,11 @@
 files:
-- name: indel.vcf
-  properties:
-    normalizeChromosome: true
-    SequencesCollection: databases/EnsemblHuman85/Sequences/chromosomes GRCh38
-- name: geneTrack-chr21-fragment.gff
-  transformer: ru.biosoft.bsa.transformer.GFFFileTransformer
-  properties:
-    normalizeChromosome: true
-    SequencesCollection: databases/EnsemblHuman85/Sequences/chromosomes GRCh38
-- name: wig_track.wig
-  properties:
-    ChrMapping: hg38_ucsc_to_ensembl
 properties:
   root: 'true'
-collections: []
+fileFilter:
+- .git
+- '*.seq.idx'
+- '*.fna.id'
+- '*.fa.id'
+- '*.gb.id'
+- '*.bai'
+- '*.md'
