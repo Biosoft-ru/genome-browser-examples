@@ -1,0 +1,4 @@
+#Fri Jul 04 10:03:57 NOVT 2025
+condition={"distance"\:"0","formula"\:"1 or not and 2","conditionType"\:"symmetric difference"}
+genomeSelector={"genomeId"\:"","sequenceCollectionPath"\:"genome-browser-examples/Sequences/hg38_chr21.fa","dbSelector"\:"Custom..."}
+trackColorItems=[{"path"\:"genome-browser-examples/Tracks/geneTrack-chr21-fragment.gff","color"\:"\#5FBF00"},{"path"\:"genome-browser-examples/Tracks/geneTrack-chr21-fragment.bed","color"\:"red"}]

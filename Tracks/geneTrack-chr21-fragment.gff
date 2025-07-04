@@ -11,12 +11,7 @@ chr21	BioUML	protein_coding	13678441	13682132	0.00000	-	.
 chr21	BioUML	unprocessed_pseudogene	13737565	13783368	0.00000	-	.
 chr21	BioUML	pseudogene	13770563	13771455	0.00000	+	.
 chr21	BioUML	processed_pseudogene	13819791	13822771	0.00000	+	.
-chr21	BioUML	pseudogene	13838402	13839377	0.00000	-	.
 chr21	BioUML	pseudogene	13875236	13876196	0.00000	-	.
-chr21	BioUML	protein_coding	13904054	13935777	0.00000	+	.
-chr21	BioUML	snRNA	13915769	13915875	0.00000	+	.
-chr21	BioUML	processed_pseudogene	13970214	13971308	0.00000	+	.
-chr21	BioUML	processed_pseudogene	14056530	14058524	0.00000	+	.
 chr21	BioUML	processed_pseudogene	14070278	14071458	0.00000	+	.
 chr21	BioUML	processed_pseudogene	14086827	14087333	0.00000	+	.
 chr21	BioUML	processed_pseudogene	14118598	14119827	0.00000	-	.

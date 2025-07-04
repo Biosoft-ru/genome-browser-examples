@@ -1,5 +1,8 @@
 files:
 - name: geneTrack-chr21-fragment.gff
+  type: GFF track
+  properties:
+    SequencesCollection: genome-browser-examples/Sequences/hg38_chr21.fa
 - name: COVID19_HGI_ANA_B2_V2_pE-4.vcf
   type: VCF track
   properties:
@@ -11,6 +14,15 @@ files:
   type: BED track
   properties:
     SequencesCollection: genome-browser-examples/Sequences/hg38_chr21.fa
+- name: GCContent
+  transformer: ru.biosoft.bsa.transformer.GCContentFileTransformer
+  type: GCContent
+- name: comb_difference
+  transformer: ru.biosoft.bsa.transformer.CombinedTrackTransformer
+  type: CombinedTrack
+- name: comb_symmetric_difference
+  transformer: ru.biosoft.bsa.transformer.CombinedTrackTransformer
+  type: CombinedTrack
 fileFilter:
 - .git
 - '*.seq.idx'
